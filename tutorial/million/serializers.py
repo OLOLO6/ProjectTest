@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from million.models import*#импорт звездочка импортируют все файлы
+from million.models import *
 class Sex_Serializers(serializers.ModelSerializer):
 	class Meta:
 		model=Sex

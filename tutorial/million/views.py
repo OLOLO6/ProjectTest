@@ -11,4 +11,4 @@ from rest_framework.views import APIView
 
 class SexView(generics.ListCreateAPIView):
 	queryset=Sex.objects.all()
-	serializers_class=Sex.Serializers
+	serializer_class=Sex_Serializers
